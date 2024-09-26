@@ -69,15 +69,44 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* insted of selecting all children of the section content and repeating the same code individually 
+i decided to apply it inco to the parent so we not need to repeat ourselves */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+.content img {
+ max-height: 200px;
+}
+
+.content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+   }
+/* .search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+} */
+
+/* The section with Class= "benefits" contains the following the 3 classes, since the same CSS is applied to all of them
+then css was apply to the parent only the keep the code dry  */
+
 .benefits {
     margin-right: 20px;
+    margin-bottom: 32px;
+    color: #ffffff;
     padding: 20px;
     clear: both;
     float: right;
@@ -87,7 +116,7 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -99,15 +128,16 @@ p {
 
 .benefit-cost {
     margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-lead h3 {
+    color: #ffffff; 
+} */
+ 
+/*  The text alignment in all <h3> inside the section class=benefits is modify there is not need to repeat ourselfs writing the same code   */
+.benefits h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+/* .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -115,8 +145,15 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+} */
 
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+    max-height: 200px;
+}
+/* }
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,8 +170,12 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} 
 
+
+
+/* over here even though the same CSS is applied to all the classes inside the section class = "content"
+we need to do it individually to get the desired results */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -162,32 +203,6 @@ p {
     color: #ffffff;
 }
 
-.search-engine-optimization img {
-    max-height: 200px;
-}
-
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
-
-.search-engine-optimization h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
 
 .footer {
     padding: 30px;
