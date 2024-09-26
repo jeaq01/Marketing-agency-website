@@ -1,11 +1,19 @@
-# 1-week-challenge
+# Marketing agency website
 
 ## Description
-The HTML and CSS was build correctly but with lack of sequential order, semantic elements and accessibility i was able to identify those issues and modified the source code  
+The HTML and CSS was build correctly but with lack of sequential order, CSS was consolidated to keep the code dry, semantic elements and accessibility added, i was able to identify those issues and modified the source code  
 
 ## Usage
 The website now is more user friendly with a concise and descriptive title and all alt elements. website was optimized for search engines and follows accessibility standards
 
+## Aplication
+
+
+https://github.com/user-attachments/assets/a2255532-8351-481f-aa61-a4d091f27a3b
+
+
+Gihub Repo link: https://github.com/jeaq01/Marketing-agency-website.git
+Github pages link: https://jeaq01.github.io/Marketing-agency-website/
 ## License
 
 MIT license
